@@ -409,3 +409,22 @@ footer a {
     padding: 25px 7%;
   }
 }
+
+
+/* Project technology tags */
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.project-tech span {
+    background: rgba(59, 130, 246, 0.15);
+    color: #60a5fa;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
