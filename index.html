@@ -2,271 +2,308 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Youssef Ismaili - Engineering student at ENSEEIHT, specializing in Electronics, Electrical Energy and Automatic Control.">
-  <title>Youssef Ismaili | Engineering Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Youssef Ismaili - Engineering student at ENSEEIHT, 3EA department.">
+    <title>Youssef Ismaili | Engineering Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header class="header">
-    <a href="#home" class="logo">YI<span>.</span></a>
 
-    <button class="menu-toggle" id="menu-toggle" aria-label="Open menu">
-      ☰
-    </button>
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <a href="#home" class="logo">YI.</a>
 
-    <nav id="navigation">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#education">Education</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-
-    <button id="theme-toggle" class="theme-button" aria-label="Toggle theme">
-      🌙
-    </button>
-  </header>
-
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-content">
-        <p class="eyebrow">ENGINEERING STUDENT PORTFOLIO</p>
-
-        <h1>Hello, I'm<br><span>Youssef Ismaili</span></h1>
-
-        <h2>Engineering Student at ENSEEIHT</h2>
-
-        <p class="hero-description">
-          First-year engineering student specializing in Electronics,
-          Electrical Energy and Automatic Control (3EA).
-          Interested in science, programming and engineering technologies.
-        </p>
-
-        <div class="hero-buttons">
-          <a href="#projects" class="button primary">Explore My Projects</a>
-          <a href="#contact" class="button secondary">Get in Touch</a>
+        <div class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+            ☰
         </div>
-      </div>
 
-      <div class="profile-card">
-        <div class="avatar">YI</div>
-        <p class="profile-name">Youssef Ismaili</p>
-        <p class="profile-school">ENSEEIHT — 3EA</p>
-        <div class="profile-line"></div>
-        <p class="profile-year">First-Year Engineering Student</p>
-      </div>
-    </section>
+        <nav>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section class="section" id="about">
-      <p class="eyebrow">GET TO KNOW ME</p>
-      <h2 class="section-title">About Me</h2>
 
-      <div class="about-card">
+    <!-- HOME SECTION -->
+    <main>
+
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="section-subtitle">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>
+                    Hello, I'm <span>Youssef Ismaili</span>
+                </h1>
+
+                <p>
+                    I am a first-year engineering student at ENSEEIHT,
+                    in the Electronics, Electrical Energy and Automatic
+                    Control department (3EA).
+                    I am passionate about science, programming
+                    and engineering.
+                </p>
+
+                <a href="#projects" class="btn">Discover My Projects</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section class="section" id="about">
+
+            <p class="section-subtitle">GET TO KNOW ME</p>
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-content">
+                <p>
+                    My name is Youssef Ismaili. I am currently pursuing
+                    my first year of engineering studies at ENSEEIHT
+                    in Toulouse, France, in the 3EA department.
+                </p>
+
+                <p>
+                    Before joining ENSEEIHT, I completed two years
+                    of intensive preparatory classes in Mathematics
+                    and Physics (MP) at LYDEX in Morocco.
+                </p>
+
+                <p>
+                    I am interested in programming, mathematics,
+                    physics and engineering. I enjoy learning new
+                    concepts and applying scientific knowledge
+                    to practical projects.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- EDUCATION SECTION -->
+        <section class="section" id="education">
+
+            <p class="section-subtitle">MY ACADEMIC BACKGROUND</p>
+            <h2 class="section-title">Education</h2>
+
+            <div class="education-container">
+
+                <div class="education-card">
+                    <h3>Preparatory Classes — Mathematics and Physics (MP)</h3>
+                    <h4>LYDEX — Morocco</h4>
+                    <p>
+                        Intensive scientific education focused on
+                        mathematics, physics and engineering sciences.
+                    </p>
+                </div>
+
+                <div class="education-card">
+                    <h3>Engineering Degree — First Year</h3>
+                    <h4>ENSEEIHT — 3EA Department</h4>
+                    <p>
+                        Engineering studies in Electronics,
+                        Electrical Energy and Automatic Control.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- SKILLS SECTION -->
+        <section class="section" id="skills">
+
+            <p class="section-subtitle">WHAT I CAN DO</p>
+            <h2 class="section-title">My Skills</h2>
+
+            <div class="skills-container">
+
+                <div class="skill-card">
+                    <h3>C Programming</h3>
+                    <p>
+                        Programming fundamentals, algorithms
+                        and structured programming.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Python</h3>
+                    <p>
+                        Programming, problem solving
+                        and scientific applications.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>MATLAB</h3>
+                    <p>
+                        Numerical calculations and scientific
+                        computing.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Scientific Skills</h3>
+                    <p>
+                        Mathematics, physics, analytical thinking
+                        and problem solving.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- PROJECTS SECTION -->
+        <section class="section" id="projects">
+
+            <p class="section-subtitle">WHAT I HAVE WORKED ON</p>
+            <h2 class="section-title">My Projects</h2>
+
+            <div class="projects-container">
+
+                <!-- PROJECT 1 -->
+                <article class="project-card">
+                    <h3>Atmospheric Cycle: Modeling the Atmosphere as a Heat Engine</h3>
+
+                    <p>
+                        <strong>TIPE Project — CPGE LYDEX</strong>
+                    </p>
+
+                    <p>
+                        This scientific project studies the atmosphere
+                        as a heat engine and investigates the
+                        thermodynamic limits of wind energy.
+                    </p>
+
+                    <p>
+                        It compares the Carnot and Curzon-Ahlborn
+                        models and includes an experimental study
+                        using a convective chimney.
+                    </p>
+
+                    <p>
+                        <strong>Collaborator:</strong> Ayman Quajih
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Physics</span>
+                        <span>Thermodynamics</span>
+                        <span>Energy</span>
+                        <span>Scientific Modeling</span>
+                    </div>
+                </article>
+
+
+                <!-- PROJECT 2 -->
+                <article class="project-card">
+                    <h3>Snake Game — C Programming</h3>
+
+                    <p>
+                        <strong>Academic Project — ENSEEIHT, 1A 3EA</strong>
+                    </p>
+
+                    <p>
+                        This project focuses on designing a Snake game
+                        in the C programming language.
+                    </p>
+
+                    <p>
+                        The planned game includes snake movement,
+                        apple generation, score management,
+                        collision detection and game options.
+                    </p>
+
+                    <p>
+                        <em>Academic project — development status to be updated.</em>
+                    </p>
+
+                    <div class="project-tech">
+                        <span>C</span>
+                        <span>Algorithms</span>
+                        <span>Data Structures</span>
+                        <span>Game Development</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section class="section" id="contact">
+
+            <p class="section-subtitle">LET'S GET IN TOUCH</p>
+            <h2 class="section-title">Contact Me</h2>
+
+            <div class="contact-container">
+
+                <p>
+                    Thank you for visiting my portfolio.
+                    Feel free to contact me for academic,
+                    engineering or project-related discussions.
+                </p>
+
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:YOUR.EMAIL@EXAMPLE.COM">
+                        YOUR.EMAIL@EXAMPLE.COM
+                    </a>
+                </p>
+
+                <p>
+                    <strong>GitHub:</strong>
+                    <a href="https://github.com/youssefismaili654-prog"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Visit my GitHub profile
+                    </a>
+                </p>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
         <p>
-          I am a first-year engineering student at ENSEEIHT,
-          specializing in Electronics, Electrical Energy and
-          Automatic Control (3EA).
+            © 2026 Youssef Ismaili. All rights reserved.
         </p>
-
-        <p>
-          Before joining ENSEEIHT, I completed two years of
-          intensive scientific preparatory classes in the
-          Mathematics and Physics (MP) track at LYDEX in Morocco.
-        </p>
-
-        <p>
-          This academic background has helped me develop strong
-          analytical skills, scientific reasoning and a rigorous
-          approach to problem-solving.
-        </p>
-
-        <p>
-          I am particularly interested in electronics, electrical
-          engineering, automatic control and computer science.
-        </p>
-      </div>
-    </section>
-
-    ection class="section" id="education">
-      <p class="eyebrow">MY ACADEMIC BACKGROUND</p>
-      <h2 class="section-title">Education</h2><s
-
-      <div class="timeline">
-        <article class="timeline-item">
-          <span class="timeline-date">Previous Education</span>
-          <h3>Preparatory Classes — Mathematics and Physics (MP)</h3>
-          <p class="institution">LYDEX — Morocco</p>
-          <p>
-            Intensive scientific education focused on mathematics,
-            physics and engineering sciences.
-          </p>
-        </article>
-
-        <article class="timeline-item">
-          <span class="timeline-date">Current Education</span>
-          <h3>Engineering Degree — First Year</h3>
-          <p class="institution">ENSEEIHT — 3EA Department</p>
-          <p>
-            Engineering studies in Electronics, Electrical Energy
-            and Automatic Control.
-          </p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="skills">
-      <p class="eyebrow">MY TECHNICAL TOOLKIT</p>
-      <h2 class="section-title">Technical Skills</h2>
-
-      <div class="skills-grid">
-        <article class="skill-card">
-          <span class="skill-icon">C</span>
-          <h3>C Programming</h3>
-          <p>Programming fundamentals and algorithmic problem-solving.</p>
-        </article>
-
-        <article class="skill-card">
-          <span class="skill-icon">Py</span>
-          <h3>Python</h3>
-          <p>Programming and computational problem-solving.</p>
-        </article>
-
-        <article class="skill-card">
-          <span class="skill-icon">M</span>
-          <h3>MATLAB</h3>
-          <p>Scientific computing and numerical simulation.</p>
-        </article>
-      </div>
-    </section>
-
-   
-<section class="section" id="projects">
-  <p class="eyebrow">WHAT I HAVE WORKED ON</p>
-  <h2 class="section-title">Projects & Experience</h2>
-
-  <div class="projects-grid">
-
-    <!-- TIPE PROJECT -->
-    <article class="project-card">
-      <span class="project-tag">Preparatory Classes — 2026</span>
-
-      <h3>Atmospheric Cycle: Modeling the Atmosphere as a Heat Engine</h3>
-
-      <p>
-        Scientific research project carried out during my
-        preparatory classes at LYDEX, in collaboration with
-        Ayman Quajih.
-      </p>
-
-      <p>
-        The project investigates atmospheric circulation through
-        thermodynamic models, in order to estimate the physical
-        limits of wind energy.
-      </p>
-
-      <p>
-        We compared an ideal Carnot model with a more realistic
-        Curzon-Ahlborn model, taking thermal irreversibilities
-        into account.
-      </p>
-
-      <p>
-        An experimental convective chimney was also designed
-        to study the relationship between temperature differences
-        and air velocity.
-      </p>
-
-      <div class="project-tech">
-        <span>Thermodynamics</span>
-        <span>Physics</span>
-        <span>Experimental Analysis</span>
-      </div>
-    </article>
-
-    <!-- SNAKE GAME PROJECT -->
-    <article class="project-card">
-      <span class="project-tag">ENSEEIHT — 1st Year — 3EA</span>
-
-      <h3>Snake Game — C Programming Project</h3>
-
-      <p>
-        Design and development of a Snake arcade game in C
-        as part of an engineering project at ENSEEIHT.
-      </p>
-
-      <p>
-        The objective is to create a playable game in which
-        the player controls a snake using keyboard arrows,
-        collects randomly generated apples and increases
-        their score.
-      </p>
-
-      <p>
-        The project involves modular programming, data
-        structures, game logic and algorithm design.
-      </p>
-
-      <p>
-        Main features include game options, stadium display,
-        snake movement, apple generation, collision detection
-        and score management.
-      </p>
-
-      <div class="project-tech">
-        <span>C</span>
-        <span>Algorithms</span>
-        <span>Data Structures</span>
-      </div>
-
-      <p class="project-note">
-        Academic project — development in progress.
-      </p>
-    </article>
-
-  </div>
-</section>
+    </footer>
 
 
-        <article class="project-card">
-          <span class="project-tag">ENSEEIHT</span>
-          <h3>Academic Projects</h3>
-          <p>
-            Academic assignments and engineering projects
-            completed as part of my engineering studies,
-            particularly in programming and engineering sciences.
-          </p>
-          <p class="project-note">More project details coming soon.</p>
-        </article>
-      </div>
-    </section>
+    <!-- MOBILE MENU SCRIPT -->
+    <script>
+        const menuToggle = document.getElementById("menu-toggle");
+        const navLinks = document.getElementById("nav-links");
 
-    <section class="section contact-section" id="contact">
-      <p class="eyebrow">LET'S CONNECT</p>
-      <h2 class="section-title">Contact Me</h2>
+        menuToggle.addEventListener("click", function () {
+            navLinks.classList.toggle("active");
 
-      <p>
-        Feel free to contact me to discuss my academic background,
-        projects or potential professional opportunities.
-      </p>
+            const isExpanded =
+                menuToggle.getAttribute("aria-expanded") === "true";
 
-      <a class="button primary" href="mailto:YOUR.EMAIL@EXAMPLE.COM">
-        Send Me an Email
-      </a>
+            menuToggle.setAttribute(
+                "aria-expanded",
+                String(!isExpanded)
+            );
+        });
 
-      <p class="contact-note">
-        Replace this placeholder with your actual email address.
-      </p>
-    </section>
-  </main>
+        document.querySelectorAll(".nav-links a").forEach(function (link) {
+            link.addEventListener("click", function () {
+                navLinks.classList.remove("active");
+                menuToggle.setAttribute("aria-expanded", "false");
+            });
+        });
+    </script>
 
-  <footer>
-    <p>© 2026 Youssef Ismaili — Personal Portfolio</p>
-    <a href="#home">Back to top ↑</a>
-  </footer>
 </body>
 </html>
