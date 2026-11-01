@@ -484,3 +484,11 @@ body.dark-mode .project-tech span {
         padding: 22px;
     }
 }
+
+.hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    margin-top: 20px;
+}
